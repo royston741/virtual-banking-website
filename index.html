@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>MYbank</h1>
+      </div>
+
+      <i class="fa fa-bars" aria-hidden="true" id="btn"></i>
+
+      <ul class="menu">
+
+        <a href="#s1">
+          <li>Home</li>
+        </a>
+
+        <a href="#s2">
+          <li>About</li>
+        </a>
+
+        <a href="#s4">
+          <li>Services</li>
+        </a>
+
+        <a href="#s5">
+          <li>Sign up</li>
+        </a>
+      </ul>
+    </header>
+
+    <main id="s1">
+      <div class="container">
+        <h1 class="content">Virtual Banking</h1>
+        <p class="content">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
+          odit eius perspiciatis cum repellendus, dignissimos dolor. Dolore
+          officia
+        </p>
+        <a href="" id="first-btn" class="content">
+          Get Started<i
+            class="fa fa-arrow-right"
+            aria-hidden="true"
+            id="arrow"
+          ></i
+        ></a>
+      </div>
+    </main>
+
+    <section id="s2" class="section-2">
+      <div class="section-2-text">
+        <p class="premium">PREMIUM BANK</p>
+        <h1 class="sec-text">Unlimited Transaction zero fees</h1>
+        <p class="sec-text section-2-p">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+          explicabo commodi exercitationem deleniti
+        </p>
+        <a id="second-btn" class="section-btn sec-text btn2" href=""
+          >Get Started
+          <i class="fa fa-arrow-right" aria-hidden="true" id="arrow"></i
+        ></a>
+      </div>
+
+      <div class="section-2-img">
+        <img class="image" src="undraw_off_road_9oae.svg" alt="" />
+      </div>
+    </section>
+
+    <div id="s3" class="section-3">
+      <div class="section-3-img">
+        <img src="undraw_personal_finance_tqcd.svg" alt="" />
+      </div>
+      <div class="section-3-text">
+        <p class="sec-3-cont" id="unlimited">UNLIMITED ACCESS</p>
+        <h1 class="sec-3-cont">Login to your account at any time</h1>
+        <p class="sec-3-cont" id="learn">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+          sit vero quia illum aut laboriosam!
+        </p>
+        <a id="third-btn" class="sec-3-a" href="">Learn More</a>
+      </div>
+    </div>
+
+    <div id="s4" class="section-4">
+      <div class="main-box">
+        <div class="services-head">
+          <h1>Our Services</h1>
+        </div>
+
+        <div class="box-container">
+          <div class="box">
+            <img src="undraw_off_road_9oae.svg" alt="" />
+            <h4>Reduce Expence</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+
+          <div class="box">
+            <img src="undraw_voice_interface_eckp.svg" alt="" />
+            <h4>Virtual Office</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+
+          <div class="box">
+            <img src="undraw_visual_data_re_mxxo.svg" alt="" />
+            <h4>Premium Benefits</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="s5" class="section-5">
+      <div class="section-5-text">
+        <p class="section-5-p">JOIN OUR TEAM</p>
+        <h1>Creating an account is extremely easy</h1>
+        <p class="section-5-cont">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          iusto optio aspernatur praesentium quod velit.
+        </p>
+        <a id="fourth-btn" class="section-5-btn" href="">Start Now</a>
+      </div>
+      <div class="section-5-img">
+        <img src="undraw_voice_interface_eckp.svg" alt="" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="copy">@Copyright 2021</div>
+
+      <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $("#btn").on("click", function () {
+        $(".menu").slideToggle();
+      });
+    </script>
+  </body>
+</html>
